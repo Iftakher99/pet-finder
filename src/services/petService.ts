@@ -16,4 +16,3 @@ export const getPetsById = async (id: number): Promise<Pet> => {
   const response = await axios.get(`${apiURL}/${id}`);
   return response.data as Pet;
 };
-#Git configure test
